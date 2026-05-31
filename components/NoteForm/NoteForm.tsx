@@ -4,7 +4,7 @@ import css from './NoteForm.module.css';
 import { useRouter } from 'next/navigation';
 import { createNoteAPI } from '@/lib/api';
 import { NewNote } from '@/types/note';
-import { useNoteDraftStore } from '@/lib/noteStore';
+import { useNoteDraftStore } from '@/lib/store/noteStore';
 
 const NoteForm = () => {
   const router = useRouter();
