@@ -20,6 +20,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: `Note: ${note.title}`,
       description: note.content.slice(0, 30),
+      url: `/notes/${id}`,
       siteName: 'NoteHub',
       images: [
         {

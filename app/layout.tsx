@@ -14,6 +14,9 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
+  ),
   title: 'NoteHub — Organize Your Notes Efficiently',
   description:
     'NoteHub is a simple and efficient note management app for creating, editing, organizing, and searching personal notes anytime and anywhere.',

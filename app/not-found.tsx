@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     title: `404 - Page Not Found | NoteHub`,
     description:
       'The requested page does not exist on NoteHub. Explore your notes and continue staying organized.',
+    url: '/not-found',
     siteName: 'NoteHub',
     images: [
       {

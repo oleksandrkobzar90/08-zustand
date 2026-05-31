@@ -37,6 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: isAll
         ? 'Showing all notes without filters'
         : `Filtered notes by ${tag}`,
+      url: `/notes/${slug}`,
       siteName: 'NoteHub',
       images: [
         {
